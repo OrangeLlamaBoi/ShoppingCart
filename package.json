@@ -1,0 +1,17 @@
+{
+  "name": "shopping_cart-revisited",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwind css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
